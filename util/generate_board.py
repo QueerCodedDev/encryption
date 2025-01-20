@@ -4,4 +4,8 @@
 
 # test list to see how find works in multi dim. lists
 test = [['a', 'b', 'c'], ['b', 'd']]
-print(test.find('a'))
+
+try:
+    print(test.index('a'))
+
+except: 
