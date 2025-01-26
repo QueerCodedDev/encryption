@@ -1,8 +1,8 @@
 Definitions:
-- Cell -- name change --> Letter: A letter
-- Board -- name change --> Cell: A section of the board that contains a collection of letters
-- Collection -- name change --> Board: a collection of cells
-- Shift:  letters within the same board
+- Letter: A letter
+- Cell: A section of the board that contains a collection of letters
+- Board: a collection of cells
+- Shift: Move the letters within the same board
 - Shuffle: Move the boards within the collection
 - Line Append: Appending style that puts the information about spaces for each line at the end of each line
 - End Append: Appending style that puts the information about spaces for the entire document/message at the end of the entire file
