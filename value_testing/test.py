@@ -20,7 +20,7 @@ def create_ranges():
 
 def find_range(val):
     i = 0
-    for r in ranges:
+    for r in ranges: #doesn't have access
         if r[0] <= val and r[1] >= val:
             return i
         i += 1
